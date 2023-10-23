@@ -1,5 +1,5 @@
 # Solidity-And-BnbChain-Development-Bootcamp-Final-Project
-Bnb bootcamp final project
+Bnb bootcamp final project  
 **GenXLocker DApp** provides its users with the option of locking up their ERC20 tokens in order to gain rewards.
 
 ## Table of Contents
@@ -57,7 +57,7 @@ The target deployment chain is Binance smart chain, although the contract should
 There are two smart contracts used by this DApp. These are;
 
 - `Ownable.sol`: Defines the implementation for the owner only modifier.
-- `GenXLocker.sol`: Contaisn all the major functions required by the DApp.
+- `GenXLocker.sol`: Contains all the major functions required by the DApp.
 
 ## Testing
 
