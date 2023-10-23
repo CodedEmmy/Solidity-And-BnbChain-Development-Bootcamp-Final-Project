@@ -10,10 +10,10 @@ pragma solidity ^0.8.21;
 abstract contract Ownable {
 
     //Address of the contract owner
-    address private payable _owner;
+    address payable private _owner;
 
     constructor() {
-        _owner = msg.sender;
+        _owner = payable(msg.sender);
     }
 
     function owner() public view virtual returns (address) {
